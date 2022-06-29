@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 25vh;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    border: 1px solid black;
+    margin: 8px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus{
+    outline: none;
+}
+
+input,
+input ::placeholder {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: center;
+}
+
+#cadastrar {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    margin: 8px;
+}
+
+table {
+    margin: 32px;
+    min-width: 430px;
+    border-collapse: collapse;
+}
+
+tbody tr td {
+    border-bottom: 1px solid black;
+    padding: 2px 8px;
+}
+
+tbody tr td button {
+    display: flex;
+    border: 1px solid #c82333;
+    background-color: #c82333;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
